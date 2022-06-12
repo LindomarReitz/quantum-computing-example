@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  gradle:
+    image: gradle:jdk18-alpine
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: tail -f /dev/null
