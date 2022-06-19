@@ -1,4 +1,4 @@
-package main;
+package com.quantum.example;
 
 import org.redfx.strange.*;
 import org.redfx.strange.gate.*;
